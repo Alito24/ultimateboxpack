@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/cod"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "item/bass"
+    },
+    {
+      "predicate": { "custom_model_data": 7 },
+      "model": "item/zephyrfish"
+    }
+  ]
+}
